@@ -1,0 +1,15 @@
+﻿  got wit da flow.cpp
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(29,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(33,12): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(33,12): warning C4244:         with
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(33,12): warning C4244:         [
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(33,12): warning C4244:             _Ty=float
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(33,12): warning C4244:         ]
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(35,11): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(35,11): warning C4244:         with
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(35,11): warning C4244:         [
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(35,11): warning C4244:             _Ty=float
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(35,11): warning C4244:         ]
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(48,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\got wit da flow\got wit da flow.cpp(70,43): warning C4305: 'argument': truncation from 'double' to 'float'
+  got wit da flow.vcxproj -> C:\Users\D242U18\Documents\GitHub\go-with-the-flow-Narwaffle22\got wit da flow\x64\Debug\got wit da flow.exe
