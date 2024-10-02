@@ -13,6 +13,7 @@ class HeatFlow {
 public:
 	HeatFlow(int, int, float, int);
 	void tick();
+	void tick(int);
 	void prettyPrint();
 
 private:
@@ -21,6 +22,7 @@ private:
 	float K;
 	int sourceTemp;
 	vector<float> rod;
+
 };
 HeatFlow::HeatFlow(int startingTemp, int numSections, float K, int sourceTemp) {
 	this->K = K;
@@ -35,8 +37,40 @@ HeatFlow::HeatFlow(int startingTemp, int numSections, float K, int sourceTemp) {
 	rod[0] = sourceTemp;
 }
 void HeatFlow::tick() {
-	for (int i = 1; i < rod.size() - 1; i++){
-		rod[i] = rod[i] + K * (rod[i + 1] - 2 * (rod[i]) + rod[i - 1]);
+	for (int i = 1; i < rod.size(); i++){
+		float leftHeat;
+		if (i != 0)
+			leftHeat = rod[i - 1];
+		else
+			leftHeat = startingTemp;
+		float rightHeat;
+		if (i != rod.size()-1)
+			rightHeat = rod[i + 1];
+		else
+			rightHeat = startingTemp;
+		float thisHeat = rod[i];
+
+		rod[i] = thisHeat + K * (rightHeat - 2 * (thisHeat) + leftHeat);
+	}
+}
+void HeatFlow::tick(int times) {
+	for (int i = 0; i < times; i++){
+		for (int j = 1; j < rod.size() - 1; j++) {
+			float leftHeat;
+			if (j != 0)
+				leftHeat = rod[j - 1];
+			else
+				leftHeat = startingTemp;
+			float rightHeat;
+			if (j != rod.size() - 1)
+				rightHeat = rod[j + 1];
+			else
+				rightHeat = startingTemp;
+			float thisHeat = rod[j];
+
+			rod[j] = thisHeat + K * (rightHeat - 2 * (thisHeat)+leftHeat);
+		}
+		//cout << i << "\n";
 	}
 }
 void HeatFlow::prettyPrint() {
@@ -63,12 +97,13 @@ void HeatFlow::prettyPrint() {
 
 #pragma endregion
 
-int main()
-{
+int main(){
 	cout << fixed << setprecision(0) << endl;
 
-	HeatFlow *heatFlow = new HeatFlow(10, 8, 0.1, 100);
+	HeatFlow* heatFlow = new HeatFlow(10, 8, 0.1, 100);
 	heatFlow->prettyPrint();
 	heatFlow->tick();
+	heatFlow->prettyPrint();
+	heatFlow->tick(2000);
 	heatFlow->prettyPrint();
 }

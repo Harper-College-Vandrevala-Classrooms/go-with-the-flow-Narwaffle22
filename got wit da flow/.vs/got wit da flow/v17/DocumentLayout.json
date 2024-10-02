@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\D242U18\\Documents\\GitHub\\go-with-the-flow-Narwaffle22\\got wit da flow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59D502C3-9530-42A1-B9E2-09F56106BDD3}|got wit da flow\\got wit da flow.vcxproj|C:\\Users\\D242U18\\Documents\\GitHub\\go-with-the-flow-Narwaffle22\\got wit da flow\\got wit da flow\\got wit da flow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59D502C3-9530-42A1-B9E2-09F56106BDD3}|got wit da flow\\got wit da flow.vcxproj|solutionrelative:got wit da flow\\got wit da flow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\D242U18\\Documents\\GitHub\\go-with-the-flow-Narwaffle22\\got wit da flow\\got wit da flow\\got wit da flow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:got wit da flow\\got wit da flow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +24,7 @@
               "RelativeDocumentMoniker": "got wit da flow\\got wit da flow.cpp",
               "ToolTip": "C:\\Users\\D242U18\\Documents\\GitHub\\go-with-the-flow-Narwaffle22\\got wit da flow\\got wit da flow\\got wit da flow.cpp",
               "RelativeToolTip": "got wit da flow\\got wit da flow.cpp",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAADkAAAAnAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAiwEAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-01T20:54:19.341Z",
               "EditorCaption": ""
