@@ -47,6 +47,7 @@ HeatFlow::HeatFlow(int startingTemp, int numSections, float K, int sourceTemp, v
 	this->sourceTemp = sourceTemp;
 	this->startingTemp = startingTemp;
 	this->sources = sources;
+	sourceLocale = numSections + 1;
 
 	rod.resize(numSections);
 	for (int i = 0; i < numSections; i++) {
@@ -129,7 +130,7 @@ void HeatFlow::prettyPrint() {
 
 int main(){
 	cout << fixed << setprecision(0) << endl;
-
+	
 	HeatFlow* heatFlow = new HeatFlow(10, 8, 0.1, 100, 0);
 	heatFlow->prettyPrint();
 	heatFlow->tick();
@@ -153,14 +154,14 @@ int main(){
 	heatFlow2->prettyPrint();
 	heatFlow2->tick(20000);
 	heatFlow2->prettyPrint();
-
-	HeatFlow* heatFlow2 = new HeatFlow(1, 20, 0.001, 100000, { 2,10 });
-	heatFlow2->prettyPrint();
-	heatFlow2->tick();
-	heatFlow2->prettyPrint();
-	heatFlow2->tick(2000);
-	heatFlow2->prettyPrint();
-	heatFlow2->tick(20000);
-	heatFlow2->prettyPrint();
+	
+	HeatFlow* heatFlow3 = new HeatFlow(1, 20, 0.001, 100000, { 2,14 });
+	heatFlow3->prettyPrint();
+	heatFlow3->tick();
+	heatFlow3->prettyPrint();
+	heatFlow3->tick(2000);
+	heatFlow3->prettyPrint();
+	heatFlow3->tick(20000);
+	heatFlow3->prettyPrint();
 
 }
